@@ -31,6 +31,7 @@ public class AgendaEvento {
                 proximaData = entry.getKey();
                 proximoEvento = entry.getValue();
                 System.out.println("O proximo evento " + proximoEvento + "acontecerá na data " + proximaData);
+                break;
             }
         }
 
